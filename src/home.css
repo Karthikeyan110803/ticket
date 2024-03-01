@@ -1,0 +1,17 @@
+
+.head{
+    background-color:rgb(235, 46, 13);
+    color: aliceblue;
+}
+button{
+    color: rgb(233, 49, 16) !important;
+    border:thin solid rgb(243, 43, 7) !important;
+}
+
+.btnn{
+    background-color:rgb(233, 52, 20)!important;
+    color: aliceblue !important;
+}
+svg{
+    fill:rgb(235, 44, 11);
+}
