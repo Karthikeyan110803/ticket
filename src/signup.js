@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Navigate, useNavigate } from 'react-router';
+// import { Link, Navigate, useNavigate } from 'react-router-dom';
 
 function Signup() {
+ const Navigate = useNavigate();
  const [SignupData, setData]=useState({
     name:"",
     email:"",
@@ -34,6 +36,8 @@ function Signup() {
         body: JSON.stringify(sgnData),
 
   }).then((res)=>console.log(res))
+  Navigate('/main')
+
     }
     return (
         <div>
